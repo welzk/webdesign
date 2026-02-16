@@ -84,7 +84,7 @@ a {
 
 .neu-card {
   background: var(--bg-color);
-  box-shadow: 20px 20px 60px var(--neumorph-dark), -20px -20px 60px var(--neumorph-light);
+  box-shadow: 5px 5px 10px #bec3c9, -5px -5px 10px #ffffff;
   border-radius: 30px;
   padding: 3.5rem 2rem;
   border: 1px solid rgba(255,255,255,0.2);
@@ -94,7 +94,7 @@ a {
 
 .section-white .neu-card {
   background: var(--bg-color);
-  box-shadow: 20px 20px 60px var(--neumorph-dark), -20px -20px 60px var(--neumorph-light);
+  box-shadow: box-shadow: 5px 5px 10px #bec3c9, -5px -5px 10px #ffffff;
 }
 
 /* Neumorphic Button */
