@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-by-Moorcam.css">
 </head>
 
 <body>
@@ -145,19 +146,28 @@
     </section>
     <footer class="py-5" id="kontakt">
         <div class="container">
-            <div class="row align-items-end px-lg-5">
-                <div class="col-lg-8 px-lg-4">
-                    <h2 class="fw-bold mb-4" style="line-height:1.1;">LASS UNS<br>STARTEN<span class="text-accent">,</span></h2>
-                    <p class="small text-secondary mb-4" style="line-height: 1.6;width: 500px;">Kontaktiere mich einfach kurz, alles weitere besprechen wir in einem kostenlosen Beratungsgespräch!</p>
-                    <div class="d-flex align-items-center mt-5"><a class="text-decoration-none me-4 footer-contact-btn" href="mailto:kevin_welz@icloud.com"><i class="fas fa-arrow-up" style="transform:rotate(45deg);"></i></a><a class="font-monospace fw-bold text-decoration-none mb-0 h4 text-dark" href="mailto:kevin_welz@icloud.com">kevin_welz@icloud.com</a></div>
+            <div class="row align-items-stretch px-lg-5">
+                <div class="col-lg-6 px-lg-4">
+                    <div>
+                        <h2 class="fw-bold mb-4" style="line-height:1.1;">LASS UNS<br>STARTEN<span class="text-accent">,</span></h2>
+                        <p class="small text-secondary mb-4" style="line-height: 1.6;width: 100%;">Kontaktiere mich einfach kurz, alles weitere besprechen wir in einem kostenlosen Beratungsgespräch!</p>
+                    </div>
                 </div>
-                <div class="col-lg-4 text-lg-end mt-5 mt-lg-0">
-                    <div class="d-flex flex-column gap-2 mb-4"><a class="text-uppercase small fw-bold text-decoration-none text-secondary" href="http://kevinwelz.me/portfolio/">PORTFOLIO</a><a class="text-uppercase small fw-bold text-decoration-none text-secondary" href="impressum.html">IMPRESSUM</a><a class="text-uppercase small fw-bold text-decoration-none text-secondary" href="datenschutz.html">DATENSCHUTZ</a></div>
+                <div class="col">
+                    <form data-bss-recipient="6e74eedbfde5693e0ef7d6be6b78795f" style="background: rgba(248,249,250,0);" data-bss-success-message="Ich werde mich bald bei dir melden." data-bss-loading-message="Senden…" data-bss-error-message="Etwas hat nicht geklappt. Probiere es bitte nochmal." data-bss-empty-form-message="Fehlende Felder ausfüllen." data-bss-close="Schließen" data-bss-success-title="Es kann losgehen!" data-bss-subject="Webdesign Anfrage">
+                        <div class="mb-3 form-group"><label class="form-label small" style="margin-bottom: 0.2rem;">Name</label><input class="form-control form-control-sm neu-form" type="text" name="name" required=""></div>
+                        <div class="mb-3 form-group"><label class="form-label small" style="margin-bottom: 0.2rem;">E-Mail</label><input class="form-control form-control-sm neu-form" type="email" name="email" required=""></div>
+                        <div class="mb-3 form-group"><label class="form-label small" style="margin-bottom: 0.2rem;">Nachricht</label><textarea class="form-control form-control-sm neu-form" name="message" rows="3" required=""></textarea></div>
+                        <div class="mb-3 form-group"><button class="neu-form" type="submit" style="color: var(--accent-color);">senden</button></div>
+                    </form>
                 </div>
             </div>
             <div class="row border-secondary-subtle mt-5 pt-5 border-top">
                 <div class="col-md-6">
                     <p class="small text-secondary mb-0">© KEVIN WELZ. ALL RIGHTS RESERVED.</p>
+                </div>
+                <div class="col-lg-4 text-lg-end mt-5 mt-lg-0">
+                    <div class="d-flex flex-column gap-2 mb-4"><a class="text-uppercase small fw-bold text-decoration-none text-secondary" href="http://kevinwelz.me/portfolio/">PORTFOLIO</a><a class="text-uppercase small fw-bold text-decoration-none text-secondary" href="impressum.html">IMPRESSUM</a><a class="text-uppercase small fw-bold text-decoration-none text-secondary" href="datenschutz.html">DATENSCHUTZ</a></div>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <p class="small text-secondary mb-0">DESIGNED &amp; DEVELOPED IN AUGSBURG.</p>
@@ -166,6 +176,7 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/motion@latest/dist/motion.js"></script>
 </body>
