@@ -145,6 +145,22 @@ a {
   transition: all 0.2s ease;
 }
 
+.neu-icon {
+  background: var(--bg-color);
+  box-shadow: 5px 5px 10px #bec3c9, -5px -5px 10px #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  color: var(--text-primary);
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.2s ease;
+}
+
 .neu-form {
   background: var(--bg-color);
   box-shadow: 5px 5px 10px #bec3c9, -5px -5px 10px #ffffff;
@@ -459,7 +475,7 @@ a {
 
 @media (max-width: 767.98px) {
   .navbar-floating {
-    padding: 0.8rem 1.5rem;
+    padding: 0.8rem 1rem;
     border-radius: 20px;
     z-index: 1050;
   }
